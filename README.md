@@ -1,6 +1,6 @@
 count distinct triangulations: tri it!
 To run: ``python3 a4.py NUMBER_OF_VERTICES``
-If you want to print the distinct triangulation, the second argument should be ``--print``.
+If you want to print all of the distinct triangulations, the second argument should be ``--print``.
 ## example:
 To get the list AND number of distinct triangulations for a pentagon, do:
 ``python3 tri.py 5 --print``
