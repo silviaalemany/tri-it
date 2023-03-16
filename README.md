@@ -1,4 +1,3 @@
-count distinct triangulations: tri it!
 To run: 
 ``python3 a4.py NUMBER_OF_VERTICES``
 
