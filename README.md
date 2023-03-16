@@ -1,1 +1,4 @@
 # counting-triangles
+To run: python3 a4.py {number_of_vertices} 
+If you want to print the diagonals, the second argument should be {--print}.
+This program uses an offset argument to allow for a minimum amount of auxiliary data structures/memory. My approach is similar in concept to the textbooks diagram of 3.12. I wanted to use pivot triangles to force certain diagonals and check the triangulation efficiently. Whenever a pivot is used to partition a polygon, I track the offset amount from the original indexing in order to accurately output edges while not having to store a list of vertices. Because I do not need to store any vertices to compute these triangulations (due to the offset), and I use yield to print out the distinct triangulations, I suspect the bottleneck will be time. 
