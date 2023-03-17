@@ -7,7 +7,6 @@ args = parser.parse_args()
 
 # n - number of vertices on convex polygon
 # offset - amount by which we shift the coordinates of diagonals (for recursive calls)
-# top - true if this is the first call made to method so we only ever add to the sum at top of recursion stack
 def tri(n, offset):
     global sum # sum of distinct triangulations to add to in first call to tri
     if n == 3:
