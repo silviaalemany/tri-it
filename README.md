@@ -1,17 +1,17 @@
 # Counting Distinct Triangulations
 This program counts the number of distinct triangulations for a convex polygon on n vertices and returns the result.
 To run, do: 
-``python3 tri.py n``
-from the same directory as tri.py, where n is the number of vertices.
+``python3 main.py n``
+from the same directory as main.py, where n is the number of vertices.
 
 If you want to print all of the distinct triangulations, the second argument should be ``--print``.
 
 ## Example
 To get the list AND number of distinct triangulations for a pentagon, do:
-``python3 tri.py 5 --print``
+``python3 main.py 5 --print``
 
 To just get the number of distinct triangulations for a pentagon, do:
-``python3 tri.py 5``
+``python3 main.py 5``
 
 ## Details
  My approach is similar in concept to the diagram 3.12 in Discrete and Computational
